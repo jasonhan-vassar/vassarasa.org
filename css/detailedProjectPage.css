@@ -1,0 +1,59 @@
+.main-content {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+h2 {
+  padding-top: 5px;
+}
+
+.back-text {
+  padding-top: 15px;
+  font-size: 14px;
+}
+
+.back-text a {
+  color: grey;
+}
+
+.imageAndLinks {
+  float: right;
+  width: 35%;
+  margin: 0px 0px 5px 30px;
+}
+
+.main-content-text {
+  display: inline;
+  font-family: 'Josefin Sans';
+  font-family: 'Quicksand';
+  font-size: 1em;
+  line-height: 1.75;
+}
+
+
+.projectLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.imageAndLinks img {
+  width: 100%;
+}
+
+.slash-span {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 975px) {
+  .imageAndLinks {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .imageAndLinks {
+    width: 100%;
+  }
+
+}
